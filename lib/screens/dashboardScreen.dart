@@ -173,16 +173,16 @@ class DashboardPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Next Class: Raga & Bandish',
+                    'Next Class: Srusti Raga',
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.w600,
-                      color: AppColors.twilight,
+                      color: const Color.fromARGB(255, 92, 114, 228),
                     ),
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Saturday · 5:00 PM · with Guruji',
+                    'Saturday · 5:00 PM · with ME',
                     style: TextStyle(fontSize: 13, color: AppColors.inkSoft),
                   ),
                 ],
@@ -207,7 +207,7 @@ class DashboardPage extends StatelessWidget {
             style: TextStyle(
               fontSize: 11,
               letterSpacing: 1.2,
-              color: AppColors.maroon,
+              color: const Color.fromARGB(255, 109, 24, 34),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -216,7 +216,7 @@ class DashboardPage extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-              color: AppColors.twilight,
+              color: const Color.fromARGB(255, 69, 81, 140),
               borderRadius: BorderRadius.circular(6),
             ),
             child: Row(
